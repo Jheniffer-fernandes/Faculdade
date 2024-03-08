@@ -1,0 +1,78 @@
+@charset "utf-8";
+
+header {
+    text-align: center;
+    font-family: 'Rampart One', cursive;
+    font-weight: 900;
+    font-size: 1.50rem;
+    color: beige;
+}
+
+body {
+    background-image: url(https://images.alphacoders.com/676/thumb-1920-676635.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+    background-attachment: local;
+    margin: 10px 20px;
+
+}
+
+main {
+    padding: 3em;
+}
+
+nav a {
+    background-color: rgba(192, 192, 192, 0.212);
+    font: 1.50em 'Rampart One', cursive;
+    text-decoration: none;
+    color: black;
+}
+
+h2 {
+    border-bottom: 3px solid;
+    font-family: 'Rampart One', cursive;
+    font-weight: 600;
+}
+
+ul, p {
+    font: 1.4em 'Yomogi';
+    color: #000;
+    background-color: rgba(192, 192, 192, 0.493);
+}
+
+.dp {
+    color: #46055a;
+}
+
+section.img {
+    display: flex;
+
+}
+
+img {
+    height: 340px;
+    width: 620px;
+
+}
+
+figure {
+    width: 620px;
+    padding: 5px;
+    border: 2px solid #1c0358;
+}
+
+figcaption {
+    text-align: center;
+    font-size: 1.6em;
+    color: #46055a;
+    background-color: rgba(192, 192, 192, 0.212);
+    font-family: 'Rampart One', cursive;
+}
+
+
+@media(max-width:768px) {
+    .col {
+        width: 100%;
+    }
+}
